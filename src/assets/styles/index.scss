@@ -1,0 +1,10 @@
+@import './shared';
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal !important;
+  font-size: #{$unit} !important;
+  letter-spacing: normal !important;
+  line-height: 1 !important;
+  margin: 0;
+}
