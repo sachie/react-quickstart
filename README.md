@@ -1,4 +1,3 @@
-
 # React Quickstart by [@sachie](https://github.com/sachie)
 
 This is a minimal react skeleton, to help you get started on a project quickly, with as little new learning as possible.
@@ -15,6 +14,7 @@ Built on top of the latest create-react-app, as of May 2021, with the following 
 [Node >= 10.16 and npm >= 5.6](https://nodejs.org/en/) are required on your environment, as specified by [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app).
 
 &nbsp;
+
 ## How to use
 
 1. `git clone git@github.com:sachie/react-quickstart.git <YOUR_PROJECT_NAME>`
@@ -26,25 +26,27 @@ Then add some reducers, sagas, and pages to the site, as needed.
 Check the code comments for tips and explanations.
 
 &nbsp;
+
 ## Features
 
-- ***Latest react and create-react-app***, and all the advantages they bring, including Fast Refresh, the new JSX Transform, better support for upgrading react, eslint 7 support, and more.
+- **_Latest react and create-react-app_**, and all the advantages they bring, including Fast Refresh, the new JSX Transform, better support for upgrading react, eslint 7 support, and more.
 
-- ***Clear file structure*** to separate out your pages, shared components, HOCs, service wrappers, constants and texts.
+- **_Clear file structure_** to separate out your pages, shared components, HOCs, service wrappers, constants and texts.
 
-- ***CSS Modules*** to avoid classname clashing and neatly organize stylesheets. Learn more about CSS modules [here](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/). Shared/global styles and scss variables can go in `/src/assets/styles`. Basic examples of modules, variables and class combing are included.
+- **_CSS Modules_** to avoid classname clashing and neatly organize stylesheets. Learn more about CSS modules [here](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/). Shared/global styles and scss variables can go in `/src/assets/styles`. Basic examples of modules, variables and class combing are included.
 
-- ***Eslint, Stylelint, Prettier*** and comprehensive configs for each, to lint all your files **as you code**, and keep a consistent coding style within the project. Some highlights include: automatic import verification and sorting, clear tag spacing, filename checking, css animation performance and browser-unsupported feature checking, etc.
+- **_Eslint, Stylelint, Prettier_** and comprehensive configs for each, to lint all your files **as you code**, and keep a consistent coding style within the project. Some highlights include: automatic import verification and sorting, clear tag spacing, filename checking, css animation performance and browser-unsupported feature checking, etc.
 
-- ***Additional scripts*** for lint checking and fixing with ease, as well as the default scripts created by CRA.
+- **_Additional scripts_** for lint checking and fixing with ease, as well as the default scripts created by CRA.
 
-- ***Pre-commit hooks*** with [husky](https://github.com/typicode/husky) to run your tests or check for lint, before committing/pushing code.
+- **_Pre-commit hooks_** with [husky](https://github.com/typicode/husky) to run your tests or check for lint, before committing/pushing code.
 
-- ***Absolute imports*** to prevent loads of `../../` import statements.
+- **_Absolute imports_** to prevent loads of `../../` import statements.
 
-- ***Redux structure*** with a minimal store setup and connection. (Can be removed easily if it's not needed)
+- **_Redux structure_** with a minimal store setup and connection. (Can be removed easily if it's not needed)
 
 &nbsp;
+
 ## What's not included
 
 - No comprehensive redux examples, such as component specific reducers/sagas, etc. As different developers have different preferences for this structure, and some might opt out of redux completely.
@@ -56,6 +58,7 @@ Check the code comments for tips and explanations.
 - No containerization or infra configuration.
 
 &nbsp;
+
 ## Scripts
 
 **`yarn start`** - Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
@@ -75,12 +78,14 @@ The following scripts are also included if the linters need to be used separatel
 **`eslint, eslint:fix, stylelint, stylelint:fix, prettier, prettier:fix`**
 
 &nbsp;
+
 ## Discussions and Contributions
 
 For any questions, suggestions or comments, please use the github discussions section.
 If you have an improvement to submit, feel free to open a PR.
 
 &nbsp;
+
 ## License
 
 This project is licensed under the MIT license, Copyright (c) 2021 Sachindra C. Ariyasinghe. For more information check the `LICENSE` file.
