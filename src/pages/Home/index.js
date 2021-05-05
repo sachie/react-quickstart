@@ -1,6 +1,7 @@
 import React from 'react';
 import cx from 'classnames';
 import ReactLogo from 'components/ReactLogo';
+import constants from 'utils/constants';
 import messages from 'utils/messages';
 import pageStyles from 'pages/pages.module.scss';
 import styles from './home.module.scss';
@@ -14,7 +15,7 @@ const Home = () => {
         <p>{messages.mainPage.getStarted}</p>
         <p>
           {messages.mainPage.visitThe}
-          <a href="https://github.com/sachie/react-quickstart">{messages.mainPage.readme}</a>
+          <a href={constants.links.readme}>{messages.mainPage.readme}</a>
           {messages.mainPage.moreInfo}
         </p>
       </div>
