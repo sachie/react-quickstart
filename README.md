@@ -1,3 +1,4 @@
+
 # React Quickstart by [@sachie](https://github.com/sachie)
 
 This is a minimal react skeleton, to help you get started on a project quickly, with as little new learning as possible.
@@ -33,7 +34,7 @@ Check the code comments for tips and explanations.
 
 - ***CSS Modules*** to avoid classname clashing and neatly organize stylesheets. Learn more about CSS modules [here](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/). Shared/global styles and scss variables can go in `/src/assets/styles`. Basic examples of modules, variables and class combing are included.
 
-- ***Eslint, Stylelint, Prettier*** and comprehensive configs for each, to lint all your files **as you code**, and keep a consistent coding style within your team. Some highlights include: automatic import verification and sorting, clear tag spacing, filename checking, css animation performance and browser-unsupported feature checking, etc.
+- ***Eslint, Stylelint, Prettier*** and comprehensive configs for each, to lint all your files **as you code**, and keep a consistent coding style within the project. Some highlights include: automatic import verification and sorting, clear tag spacing, filename checking, css animation performance and browser-unsupported feature checking, etc.
 
 - ***Additional scripts*** for lint checking and fixing with ease, as well as the default scripts created by CRA.
 
@@ -46,13 +47,13 @@ Check the code comments for tips and explanations.
 &nbsp;
 ## What's not included
 
-- No comprehensive redux examples, such as component specific reducers/sagas, etc. As different teams have different preferences for this structure, and some teams might opt out of redux completely.
+- No comprehensive redux examples, such as component specific reducers/sagas, etc. As different developers have different preferences for this structure, and some might opt out of redux completely.
 
 - No testing examples, but the required testing libraries are already included as dependencies, so once tests are written, they can be run using the `yarn test` script.
 
-- No server side rendering setup because most teams don't use it.
+- No server side rendering setup.
 
-- No containerization or infra configuration because there are varied tastes for them, in different teams.
+- No containerization or infra configuration.
 
 &nbsp;
 ## Scripts
