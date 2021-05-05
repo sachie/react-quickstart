@@ -1,0 +1,18 @@
+// Common styles for all pages.
+// Check pages/Home/index.js to see how this is combined with individual page styles.
+
+@import '../assets/styles/shared';
+
+.container {
+  display: flex;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 0;
+}
