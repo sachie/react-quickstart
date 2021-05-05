@@ -6,6 +6,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "postinstall": "husky install",
     "lint": "yarn eslint && yarn stylelint && yarn prettier",
     "lint:fix": "yarn eslint:fix && yarn stylelint:fix && yarn prettier:fix",
     "eslint": "eslint .",
@@ -14,11 +15,6 @@
     "stylelint:fix": "stylelint --fix **/*.scss",
     "prettier": "prettier --check './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "prettier:fix": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint"
-    }
   },
   "eslintConfig": {
     "extends": [
