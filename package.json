@@ -7,8 +7,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "postinstall": "husky install",
-    "lint": "yarn eslint && yarn stylelint && yarn prettier",
-    "lint:fix": "yarn eslint:fix && yarn stylelint:fix && yarn prettier:fix",
+    "lint": "ultra eslint && ultra stylelint && ultra prettier",
+    "lint:fix": "ultra eslint:fix && ultra stylelint:fix && ultra prettier:fix",
     "eslint": "eslint .",
     "eslint:fix": "eslint --fix .",
     "stylelint": "stylelint **/*.scss",
@@ -68,6 +68,7 @@
     "stylelint-config-standard": "^22.0.0",
     "stylelint-high-performance-animation": "^1.5.1",
     "stylelint-no-unsupported-browser-features": "^4.1.3",
-    "stylelint-scss": "^3.18.0"
+    "stylelint-scss": "^3.18.0",
+    "ultra-runner": "^3.10.5"
   }
 }

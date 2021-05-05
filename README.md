@@ -19,8 +19,8 @@ Built on top of the latest create-react-app, as of May 2021, with the following 
 
 1. `git clone git@github.com:sachie/react-quickstart.git <YOUR_PROJECT_NAME>`
 2. `cd <YOUR_PROJECT_NAME>`
-3. `yarn`
-4. `yarn start`
+3. `yarn` or `npm i`
+4. `yarn start` or `npm start`
 
 Then add some reducers, sagas, and pages to the site, as needed.
 Check the code comments for tips and explanations.
@@ -39,7 +39,7 @@ Check the code comments for tips and explanations.
 
 - **_Additional scripts_** for lint checking and fixing with ease, as well as the default scripts created by CRA.
 
-- **_Pre-commit hooks_** with [husky](https://github.com/typicode/husky) to run your tests or check for lint, before committing/pushing code.
+- **_Pre-commit hooks_** with [husky](https://github.com/typicode/husky) to run your tests or check for lint, before committing/pushing code. If you're having trouble with using the pre-commit hooks, or if you're using **Yarn 2**, check the [husky documentation](https://typicode.github.io/husky/#/?id=automatic-recommended).
 
 - **_Absolute imports_** to prevent loads of `../../` import statements.
 
@@ -51,7 +51,7 @@ Check the code comments for tips and explanations.
 
 - No comprehensive redux examples, such as component specific reducers/sagas, etc. As different developers have different preferences for this structure, and some might opt out of redux completely.
 
-- No testing examples, but the required testing libraries are already included as dependencies, so once tests are written, they can be run using the `yarn test` script.
+- No testing examples, but the required testing libraries are already included as dependencies, so once tests are written, they can be run using the `test` script.
 
 - No server side rendering setup.
 
@@ -60,6 +60,9 @@ Check the code comments for tips and explanations.
 &nbsp;
 
 ## Scripts
+
+**Note: `npm` or `npm run` can be used instead of `yarn` if preferred**
+&nbsp;
 
 **`yarn start`** - Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
 
