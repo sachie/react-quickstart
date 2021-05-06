@@ -39,11 +39,13 @@ Check the code comments for tips and explanations.
 
 - **_Additional scripts_** for lint checking and fixing with ease, as well as the default scripts created by CRA.
 
-- **_Pre-commit hooks_** with [husky](https://github.com/typicode/husky) to run your tests or check for lint, before committing/pushing code. If you're having trouble with using the pre-commit hooks, or if you're using **Yarn 2**, check the [husky documentation](https://typicode.github.io/husky/#/?id=automatic-recommended).
+- **_Pre-commit hooks_** with [husky](https://github.com/typicode/husky) 6 to run your tests or check for lint, before committing/pushing code. If you're having trouble with using the pre-commit hooks, or if you're using **Yarn 2**, check the [husky documentation](https://typicode.github.io/husky/#/?id=automatic-recommended).
 
 - **_Absolute imports_** to prevent loads of `../../` import statements.
 
 - **_Redux structure_** with a minimal store setup and connection. (Can be removed easily if it's not needed)
+
+- **_Works with both NPM and Yarn_** as the scripts use [ultra-runner](https://github.com/folke/ultra-runner). Just remove the `yarn.lock` file if you're using `npm`.
 
 &nbsp;
 
