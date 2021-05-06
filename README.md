@@ -55,7 +55,7 @@ Check the code comments for tips and explanations.
 
 - **_Absolute imports_** to prevent loads of `../../` import statements.
 
-- **_Redux structure_** with a minimal store setup and connection. (Can be removed easily if it's not needed)
+- **_Redux structure_** with **sagas**, a minimal store setup and connection. (Can be removed easily if it's not needed)
 
 - **_Works with both `npm` and `yarn`_** as the scripts use [ultra-runner](https://github.com/folke/ultra-runner). Just remove the `yarn.lock` file if you're using `npm`.
 
