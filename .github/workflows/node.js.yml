@@ -1,0 +1,26 @@
+name: React Quickstart CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js 15
+        uses: actions/setup-node@v2
+        with:
+          node-version: '15'
+
+      - name: Yarn install with caching
+        uses: bahmutov/npm-install@v1.6.0
+
+      - name: Run build
+        run: yarn build
