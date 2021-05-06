@@ -1,15 +1,27 @@
-# React Quickstart by [@sachie](https://github.com/sachie)
+<div align="center">
+  <h1>
+    React Quickstart
+    <br />
+    <img alt="David" src="https://img.shields.io/david/sachie/react-quickstart">
+    <img alt="David" src="https://img.shields.io/david/dev/sachie/react-quickstart">
+    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/sachie/react-quickstart/React%20Quickstart%20CI">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sachie/react-quickstart">
+    <img alt="GitHub" src="https://img.shields.io/github/license/sachie/react-quickstart">
+    
+  </h1>
+</div>
+<br /><br />
 
-This is a minimal react skeleton, to help you get started on a project quickly, with as little new learning as possible.
+A minimal react skeleton, to help you get started on a project quickly, with as little new learning as possible.
 It has commonly used code styling rules, auto formatting, SCSS modules and a minimal redux setup (check the feature list below for more information). You can simply clone-build-run and start adding your code, without spending time on setting up coding standards or a folder structure.
 
 Built on top of the latest create-react-app, as of May 2021, with the following module versions:
 
-- react: **^17.0.2**
-- react-scripts (CRA): **4.0.3**
-- react-router-dom: **^5.2.0**
-- redux: **^4.0.5**
-- eslint: **^7.25.0**
+- <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/react">
+- <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/react-scripts?label=react-scripts%20%28CRA%29">
+- <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/react-router-dom">
+- <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/redux">
+- <img alt="GitHub package.json dependency version (dev dep on branch)" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/dev/eslint">
 
 [Node >= 10.16 and npm >= 5.6](https://nodejs.org/en/) are required on your environment, as specified by [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app).
 
