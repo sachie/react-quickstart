@@ -2,11 +2,11 @@
   <h1>
     React Quickstart
     <br />
-    <img alt="David" src="https://img.shields.io/david/sachie/react-quickstart">
-    <img alt="David" src="https://img.shields.io/david/dev/sachie/react-quickstart">
-    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/sachie/react-quickstart/React%20Quickstart%20CI">
+    <img alt="Dependency Status" src="https://david-dm.org/sachie/react-quickstart.svg">
+    <img alt="Dev Dependency Status" src="https://david-dm.org/sachie/react-quickstart/dev-status.svg">
+    <img alt="GitHub workflow status" src="https://img.shields.io/github/workflow/status/sachie/react-quickstart/React%20Quickstart%20CI">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sachie/react-quickstart">
-    <img alt="GitHub" src="https://img.shields.io/github/license/sachie/react-quickstart">
+    <img alt="License" src="https://img.shields.io/github/license/sachie/react-quickstart">
     
   </h1>
 </div>
