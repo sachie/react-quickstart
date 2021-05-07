@@ -29,6 +29,8 @@ Built on top of the latest create-react-app, as of May 2021, with the following 
 
 ## How to use
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4909e5440ebe441f8eacc97a62182c60)](https://app.codacy.com/gh/sachie/react-quickstart?utm_source=github.com&utm_medium=referral&utm_content=sachie/react-quickstart&utm_campaign=Badge_Grade_Settings)
+
 1. `git clone git@github.com:sachie/react-quickstart.git <YOUR_PROJECT_NAME>`
 2. `cd <YOUR_PROJECT_NAME>`
 3. `yarn` or `npm i`
