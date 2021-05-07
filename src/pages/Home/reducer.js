@@ -5,9 +5,7 @@ const initialState = {};
 export default function homeReducer(state = initialState, action) {
   switch (action.type) {
     case 'home/some/action': {
-      return {
-        ...state,
-      };
+      return { ...state };
     }
     default:
       return state;

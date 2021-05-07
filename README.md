@@ -4,9 +4,10 @@
     <br />
     <img alt="Dependency Status" src="https://david-dm.org/sachie/react-quickstart.svg">
     <img alt="Dev Dependency Status" src="https://david-dm.org/sachie/react-quickstart/dev-status.svg">
+    <a href="https://www.codacy.com/gh/sachie/react-quickstart/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sachie/react-quickstart&amp;utm_campaign=Badge_Grade"><img alt="Codacy grade" src="https://img.shields.io/codacy/grade/7749bfe3bed84fb89ad4737d12fc63c8"></a>
     <img alt="GitHub workflow status" src="https://img.shields.io/github/workflow/status/sachie/react-quickstart/React%20Quickstart%20CI">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sachie/react-quickstart">
-    <img alt="License" src="https://img.shields.io/github/license/sachie/react-quickstart">
+    <img alt="License" src="https://img.shields.io/github/license/sachie/react-quickstart?color=dark%20green">
     
   </h1>
 </div>
