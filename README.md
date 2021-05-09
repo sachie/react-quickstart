@@ -34,7 +34,7 @@ Built on top of the latest create-react-app, as of May 2021, with the following 
 3. `yarn` or `npm i`
 4. `yarn start` or `npm start`
 
-Then add some reducers, sagas, and pages to the site, as needed.
+Then add some reducers, and pages to the site, as needed.
 Check the code comments for tips and explanations.
 
 &nbsp;
@@ -49,13 +49,13 @@ Check the code comments for tips and explanations.
 
 - **_Eslint, Stylelint, Prettier_** and comprehensive configs for each, to lint all your files **as you code**, and keep a consistent coding style within the project. Some highlights include: automatic import verification and sorting, clear tag spacing, test file linting, filename checking, css animation performance and browser-unsupported feature checking, etc.
 
-- **_Additional scripts_** for lint checking and fixing with ease, as well as the default scripts created by CRA.
+- **_Additional scripts_** for testing, lint checking and fixing with ease, as well as the default scripts created by CRA.
 
 - **_Pre-commit hooks_** with [husky](https://github.com/typicode/husky) 6 to run your tests or check for lint, before committing/pushing code. If you're having trouble with using the pre-commit hooks, or if you're using **Yarn 2**, check the [husky documentation](https://typicode.github.io/husky/#/?id=automatic-recommended).
 
 - **_Absolute imports_** to prevent loads of `../../` import statements.
 
-- **_Redux structure_** with **sagas**, a minimal store setup and connection. (Can be removed easily if it's not needed)
+- **_Redux structure_** with a minimal store setup and connection. (Can be removed easily if it's not needed)
 
 - **_Test setup_** with examples, lint configs and scripts for coverage and CI support.
 
@@ -65,7 +65,7 @@ Check the code comments for tips and explanations.
 
 ## What's not included
 
-- No comprehensive redux examples, such as component specific reducers/sagas, etc. As different developers have different preferences for this structure, and some might opt out of redux completely.
+- No comprehensive redux examples, such as component specific reducers, etc. As different developers have different preferences for this structure, and some might opt out of redux completely.
 
 - No server side rendering setup.
 
