@@ -6,8 +6,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:no-watch": "ultra test -- --watchAll=false",
+    "test:coverage": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
-    "postinstall": "husky install",
     "lint": "ultra eslint && ultra stylelint && ultra prettier",
     "lint:fix": "ultra eslint:fix && ultra stylelint:fix && ultra prettier:fix",
     "eslint": "eslint .",
@@ -15,7 +15,8 @@
     "stylelint": "stylelint **/*.scss",
     "stylelint:fix": "stylelint --fix **/*.scss",
     "prettier": "prettier --check './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-    "prettier:fix": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    "prettier:fix": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "postinstall": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -33,6 +34,12 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/index.js"
     ]
   },
   "dependencies": {
@@ -63,6 +70,7 @@
     "eslint-plugin-testing-library": "^4.2.0",
     "eslint-plugin-unicorn": "^31.0.0",
     "husky": "^6.0.0",
+    "istanbul": "^0.4.5",
     "node-sass": "^5.0.0",
     "prettier": "^2.1.2",
     "redux-devtools-extension": "^2.13.8",

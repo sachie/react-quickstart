@@ -24,3 +24,11 @@ jobs:
 
       - name: Run build
         run: yarn build
+
+      - name: Run tests with coverage reports
+        run: yarn test:coverage
+
+      - name: Upload coverage report to codacy
+        uses: codacy/codacy-coverage-reporter-action@v1
+        with:
+          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
