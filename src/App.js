@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import { Suspense } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import PageLoader from 'components/PageLoader';
 import Home from 'pages/Home';

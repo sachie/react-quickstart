@@ -21,13 +21,16 @@
   "env": {
     "browser": true,
     "amd": true,
-    "node": true
+    "node": true,
+    "jest": true
   },
   "extends": [
     "airbnb",
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
+    "plugin:jest-dom/recommended",
+    "plugin:testing-library/react",
     "plugin:jsx-a11y/recommended",
     "plugin:prettier/recommended",
     "prettier",
@@ -79,6 +82,8 @@
       }
     }],
     "react/prefer-stateless-function": [2, { "ignorePureComponents": true }],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx"] }],
     "react/jsx-no-literals": [2, {
       "noStrings": true,
@@ -107,7 +112,7 @@
     "unicorn/prevent-abbreviations": 0,
     "no-console": 2
   },
-  "plugins": ["prettier", "unicorn", "import", "react", "react-hooks"],
+  "plugins": ["prettier", "unicorn", "import", "react", "react-hooks", "testing-library", "jest-dom"],
   "globals": {
     "window": true,
     "document": true,

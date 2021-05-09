@@ -15,7 +15,9 @@ const Home = () => {
         <p>{messages.mainPage.getStarted}</p>
         <p>
           {messages.mainPage.visitThe}
-          <a href={constants.links.readme}>{messages.mainPage.readme}</a>
+          <a target="_blank" rel="noreferrer" href={constants.links.readme}>
+            {messages.mainPage.readme}
+          </a>
           {messages.mainPage.moreInfo}
         </p>
       </div>

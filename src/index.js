@@ -1,12 +1,9 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { createStore, applyMiddleware, compose } from 'redux';
-import createSagaMiddleware from 'redux-saga';
+import { createStore, compose } from 'redux';
 import App from 'App';
 import rootReducer from 'reducers';
-import rootSaga from 'sagas';
 import constants from 'utils/constants';
 
 import './assets/styles/index.scss';
@@ -16,9 +13,7 @@ const composeEnhancers =
     ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({})
     : compose;
 
-const sagaMiddleware = createSagaMiddleware();
-const store = createStore(rootReducer, composeEnhancers(applyMiddleware(sagaMiddleware)));
-sagaMiddleware.run(rootSaga);
+const store = createStore(rootReducer, composeEnhancers());
 
 ReactDOM.render(
   <Provider store={store}>
