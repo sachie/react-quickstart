@@ -12,8 +12,7 @@
 </div>
 <br /><br />
 
-A minimal react skeleton, to help you get started on a project quickly, with as little new learning as possible.
-It has commonly used code styling rules, auto formatting, SCSS modules and a minimal redux setup (check the feature list below for more information). You can simply clone-build-run and start adding your code, without spending time on setting up coding standards or a folder structure.
+The fastest way to get started on your new React project. The usual additions made on an app created with CRA, have already been done for you, including commonly used code styling rules, auto formatting, SCSS modules, redux setup and more (check the feature list below for more information). You can simply clone-build-run and start adding features, without spending time on setting up folder structures, linting, git hooks, etc.
 
 Built on top of the latest create-react-app, as of May 2021, with the following module versions:
 
@@ -47,7 +46,7 @@ Check the code comments for tips and explanations.
 
 - **_CSS Modules_** to avoid classname clashing and neatly organize stylesheets. Learn more about CSS modules [here](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/). Shared/global styles and scss variables can go in `/src/assets/styles`. Basic examples of modules, variables and class combing are included.
 
-- **_Eslint, Stylelint, Prettier_** and comprehensive configs for each, to lint all your files **as you code**, and keep a consistent coding style within the project. Some highlights include: automatic import verification and sorting, clear tag spacing, filename checking, css animation performance and browser-unsupported feature checking, etc.
+- **_Eslint, Stylelint, Prettier_** and comprehensive configs for each, to lint all your files **as you code**, and keep a consistent coding style within the project. Some highlights include: automatic import verification and sorting, clear tag spacing, test file linting, filename checking, css animation performance and browser-unsupported feature checking, etc.
 
 - **_Additional scripts_** for lint checking and fixing with ease, as well as the default scripts created by CRA.
 
