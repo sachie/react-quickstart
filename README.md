@@ -34,7 +34,7 @@ Built on top of the latest create-react-app, as of May 2021, with the following 
 3. `yarn` or `npm i`
 4. `yarn start` or `npm start`
 
-Then add some reducers, and pages to the site, as needed.
+Then add some reducers, pages and tests to the site, as needed.
 Check the code comments for tips and explanations.
 
 &nbsp;
