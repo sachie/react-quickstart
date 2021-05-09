@@ -12,7 +12,7 @@
 </div>
 <br /><br />
 
-The fastest way to get started on your new React project. The usual additions made on an app created with CRA, have already been done for you, including commonly used code styling rules, auto formatting, SCSS modules, redux setup and more (check the feature list below for more information). You can simply clone-build-run and start adding features, without spending time on setting up folder structures, linting, git hooks, etc.
+The fastest way to get started on your new React project. The usual additions made on an app created with CRA, have already been done for you, including commonly used code styling rules, auto formatting, test setup, coverage reports, SCSS modules, redux setup and more (check the feature list below for more information). You can simply clone-build-run and start adding features, without spending time on setting up folder structures, linting, git hooks, etc.
 
 Built on top of the latest create-react-app, as of May 2021, with the following module versions:
 
@@ -56,6 +56,8 @@ Check the code comments for tips and explanations.
 
 - **_Redux structure_** with **sagas**, a minimal store setup and connection. (Can be removed easily if it's not needed)
 
+- **_Test setup_** with examples, lint configs and scripts for coverage and CI support.
+
 - **_Works with both `npm` and `yarn`_** as the scripts use [ultra-runner](https://github.com/folke/ultra-runner). Just remove the `yarn.lock` file if you're using `npm`.
 
 &nbsp;
@@ -78,6 +80,10 @@ Check the code comments for tips and explanations.
 - **`yarn start`** - Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
 
 - **`yarn test`** - Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+- **`yarn test:no-watch`** - Runs tests without watch mode. Is used for the pre-push git hook, and can be used with continuous integration.
+
+- **`yarn test:coverage`** - Runs tests without watch mode and outputs coverage reports to `/coverage`.
 
 - **`yarn build`** - Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
 
