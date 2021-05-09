@@ -51,7 +51,7 @@ Check the code comments for tips and explanations.
 
 - **_Additional scripts_** for testing, lint checking and fixing with ease, as well as the default scripts created by CRA.
 
-- **Git hooks_** with [husky](https://github.com/typicode/husky) 6 to run your tests or check for lint, before committing/pushing code. Pre-commit and Pre-push hooks are included. If you're having trouble with using the hooks, or if you're using **Yarn 2**, check the [husky documentation](https://typicode.github.io/husky/#/?id=automatic-recommended).
+- **_Git hooks_** with [husky](https://github.com/typicode/husky) 6 to run your tests or check for lint, before committing/pushing code. Pre-commit and Pre-push hooks are included. If you're having trouble with using the hooks, or if you're using **Yarn 2**, check the [husky documentation](https://typicode.github.io/husky/#/?id=automatic-recommended).
 
 - **_Absolute imports_** to prevent loads of `../../` import statements.
 
