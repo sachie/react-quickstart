@@ -57,7 +57,7 @@ Check the code comments for tips and explanations.
 
 - **_Redux structure_** with a minimal store setup and connection. (Can be removed easily if it's not needed)
 
-- **_Test setup_** with examples, lint configs and scripts for coverage and CI support.
+- **_Test setup_** with examples, lint configs and scripts for coverage (with [istanbul](https://github.com/gotwarlost/istanbul)) and CI support.
 
 - **_Works with both `npm` and `yarn`_** as the scripts use [ultra-runner](https://github.com/folke/ultra-runner). Just remove the `yarn.lock` file if you're using `npm`.
 
