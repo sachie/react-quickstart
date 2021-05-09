@@ -66,8 +66,6 @@ Check the code comments for tips and explanations.
 
 - No comprehensive redux examples, such as component specific reducers/sagas, etc. As different developers have different preferences for this structure, and some might opt out of redux completely.
 
-- No testing examples, but the required testing libraries are already included as dependencies, so once tests are written, they can be run using the `test` script.
-
 - No server side rendering setup.
 
 - No containerization or infra configuration.
