@@ -13,7 +13,7 @@
 </div>
 <br /><br />
 
-The fastest way to get started on your new React project. The usual additions made on an app created with CRA, have already been done for you, including commonly used code styling rules, auto formatting, test setup, coverage reports, SCSS modules, redux setup and more (check the feature list below for more information). You can simply clone-build-run and start adding features, without spending time on setting up folder structures, linting, git hooks, etc.
+The fastest way to get started on your new React project. The usual additions you make after CRA generation, have already been done for you, including code styling rules, auto formatting, test setup, coverage reports, SCSS modules, redux setup and more (check the feature list below for more information). You can simply clone-build-run and start adding features, without spending time on setting up folder structures, linting, git hooks, etc.
 
 Built on top of the latest create-react-app, as of May 2021, with the following module versions:
 
