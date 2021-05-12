@@ -4,10 +4,10 @@
     <br />
     <a href="https://depfu.com/github/sachie/react-quickstart?project_id=25505"><img src="https://badges.depfu.com/badges/0de690f5a0f0bc7da4e9e469356bcf6f/overview.svg" alt="Dependency status"></a>
     <a href="https://www.codacy.com/gh/sachie/react-quickstart/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sachie/react-quickstart&amp;utm_campaign=Badge_Grade"><img alt="Code Quality" src="https://img.shields.io/codacy/grade/7749bfe3bed84fb89ad4737d12fc63c8"></a>
-    <img alt="GitHub workflow status" src="https://img.shields.io/github/workflow/status/sachie/react-quickstart/React%20Quickstart%20CI">
-    <img alt="Test coverage" src="https://img.shields.io/codacy/coverage/7749bfe3bed84fb89ad4737d12fc63c8">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sachie/react-quickstart">
-    <img alt="License" src="https://img.shields.io/github/license/sachie/react-quickstart?color=dark%20green">
+    <a href="https://github.com/sachie/react-quickstart/actions"><img alt="GitHub workflow status" src="https://img.shields.io/github/workflow/status/sachie/react-quickstart/React%20Quickstart%20CI"></a>
+    <a href="https://app.codacy.com/gh/sachie/react-quickstart/dashboard?utm_source=github.com&utm_medium=referral&utm_content=sachie/react-quickstart&utm_campaign=Badge_Grade"><img alt="Test coverage" src="https://img.shields.io/codacy/coverage/7749bfe3bed84fb89ad4737d12fc63c8"></a>
+    <a href="https://github.com/sachie/react-quickstart/commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sachie/react-quickstart"></a>
+    <a href="https://github.com/sachie/react-quickstart/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/sachie/react-quickstart?color=dark%20green"></a>
     
   </h1>
 </div>
