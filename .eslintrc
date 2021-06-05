@@ -121,7 +121,8 @@
     "unicorn/prefer-spread": 0,
     "unicorn/prefer-add-event-listener": 0,
     "unicorn/prefer-node-protocol": 0,
-    "unicorn/prefer-number-properties": 0
+    "unicorn/prefer-number-properties": 0,
+    "unicorn/consistent-function-scoping": 0
   },
   "plugins": ["prettier", "unicorn", "import", "react", "react-hooks", "testing-library", "jest-dom"],
   "globals": {
