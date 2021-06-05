@@ -2,7 +2,7 @@
   "name": "react-quickstart",
   "version": "0.1.0",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cross-env ESLINT_NO_DEV_ERRORS=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:no-watch": "ultra test -- --watchAll=false",
@@ -57,6 +57,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
     "eslint": "^7.27.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-import": "^0.13.0",
