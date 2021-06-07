@@ -1,4 +1,4 @@
-import React from 'react';
+import { memo } from 'react';
 import Spinner from 'assets/images/spinner.gif';
 import styles from './pageLoader.module.scss';
 
@@ -13,4 +13,4 @@ const PageLoader = () => {
   );
 };
 
-export default React.memo(PageLoader);
+export default memo(PageLoader);

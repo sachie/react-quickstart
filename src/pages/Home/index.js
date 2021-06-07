@@ -1,4 +1,4 @@
-import React from 'react';
+import { memo } from 'react';
 import cx from 'classnames';
 import ReactLogo from 'components/ReactLogo';
 import constants from 'utils/constants';
@@ -25,4 +25,4 @@ const Home = () => {
   );
 };
 
-export default React.memo(Home);
+export default memo(Home);
