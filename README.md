@@ -8,10 +8,9 @@
     <a href="https://app.codacy.com/gh/sachie/react-quickstart/dashboard?utm_source=github.com&utm_medium=referral&utm_content=sachie/react-quickstart&utm_campaign=Badge_Grade"><img alt="Test coverage" src="https://img.shields.io/codacy/coverage/7749bfe3bed84fb89ad4737d12fc63c8"></a>
     <a href="https://github.com/sachie/react-quickstart/commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sachie/react-quickstart"></a>
     <a href="https://github.com/sachie/react-quickstart/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/sachie/react-quickstart?color=dark%20green"></a>
-    
   </h1>
 </div>
-<br /><br />
+<br />
 
 A modern template to jump start your React project. The usual additions you make after CRA generation, have already been done for you, including code styling rules, auto formatting, test setup, coverage reports, SCSS modules, redux setup and more (check the feature list below for more information). You can simply clone-build-run and start adding features, without spending time on setting up folder structures, linting, git hooks, etc.
 
