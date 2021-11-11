@@ -60,7 +60,7 @@ Check the code comments for tips and explanations.
 
 - **_Works with both `npm` and `yarn`_** as the scripts use [ultra-runner](https://github.com/folke/ultra-runner). Remove the `yarn.lock` file if you're using `npm`.
 
-- **_Github actions configuration_** to build, run tests and upload coverage. (Can be removed if not needed, or used with your own [Github Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets))
+- **_Github actions configuration_** to build, run lint/tests and upload coverage. (Can be removed if not needed, or used with your own [Github Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets))
 
 &nbsp;
 

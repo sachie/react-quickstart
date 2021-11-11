@@ -14,13 +14,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Setup Node.js 15
+      - name: Setup Node.js 16
         uses: actions/setup-node@v2
         with:
-          node-version: '15'
+          node-version: '16'
 
       - name: Yarn install with caching
         uses: bahmutov/npm-install@v1.6.0
+
+      - name: Run lint checks
+        run: yarn lint
 
       - name: Run build
         run: yarn build
