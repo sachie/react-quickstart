@@ -1,10 +1,9 @@
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { createStore, compose } from 'redux';
 import App from 'App';
 import rootReducer from 'reducers';
-import constants from 'utils/constants';
 
 import './assets/styles/index.scss';
 
@@ -18,7 +17,7 @@ const store = createStore(rootReducer, composeEnhancers());
 ReactDOM.render(
   <Provider store={store}>
     <Router>
-      <Route path={constants.paths.home} component={App} />
+      <App />
     </Router>
   </Provider>,
   document.querySelector('#root'),

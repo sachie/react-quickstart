@@ -43,6 +43,7 @@
     "no-console": 2,
     "max-len": [2, { "code": 100 }],
     "consistent-return": 0,
+    "default-param-last": 0,
     "import/order": [2, {
       "groups": [
         "builtin",
@@ -100,6 +101,10 @@
     "react/jsx-props-no-spreading": [2, {
         "html": "ignore",
         "exceptions": ["Label"]
+    }],
+    "react/function-component-definition": [2, {
+      "namedComponents": "arrow-function",
+      "unnamedComponents": "arrow-function"
     }],
     "jsx-a11y/control-has-associated-label": 0,
     "jsx-a11y/anchor-is-valid": 0,
