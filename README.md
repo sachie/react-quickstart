@@ -40,25 +40,27 @@ Check the code comments for tips and explanations.
 
 ## Features
 
-- **_Latest react and create-react-app_**, and all the advantages they bring, including Fast Refresh, the new JSX Transform, better support for upgrading react, eslint 7 support, and more.
+- **_Latest react and create-react-app_**, and all the advantages they bring.
 
-- **_Clear file structure_** to separate out your pages, shared components, HOCs, service wrappers, constants and texts.
+- **_Clear file structure_** to separate your pages, shared components, HOCs, service wrappers, constants and texts.
 
-- **_CSS Modules_** to avoid classname clashing and neatly organize stylesheets. Learn more about CSS modules [here](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/). Shared/global styles and scss variables can go in `/src/assets/styles`. Basic examples of modules, variables and class combing are included.
+- **_CSS Modules_** to avoid classname clashing and neatly organize stylesheets. Learn more about CSS modules [here](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/). Shared/global styles and scss variables can go in `/src/assets/styles`. Basic examples of modules, variables and class combining are included.
 
 - **_Eslint, Stylelint, Prettier_** and comprehensive configs for each, to lint all your files **as you code**, and keep a consistent coding style within the project. Some highlights include: automatic import verification and sorting, clear tag spacing, test file linting, filename checking, css animation performance and browser-unsupported feature checking, etc.
 
-- **_Additional scripts_** for testing, lint checking and fixing with ease, as well as the default scripts created by CRA.
+- **_Additional scripts_** for testing, lint checking and fixing with ease (see Scripts section below), as well as the default scripts created by CRA.
 
-- **_Git hooks_** with [husky](https://github.com/typicode/husky) 6 to run your tests or check for lint, before committing/pushing code. Pre-commit and Pre-push hooks are included. If you're having trouble with using the hooks, or if you're using **Yarn 2**, check the [husky documentation](https://typicode.github.io/husky/#/?id=automatic-recommended).
+- **_Git hooks_** with [husky](https://github.com/typicode/husky) to run your tests or check for lint issues, before committing/pushing code. Pre-commit and Pre-push hooks are included. If you're having trouble with using the hooks, or if you're using **Yarn 2**, check the [husky documentation](https://typicode.github.io/husky/#/?id=automatic-recommended).
 
 - **_Absolute imports_** to prevent loads of `../../` import statements.
 
 - **_Redux structure_** with a minimal store setup and connection. (Can be removed easily if it's not needed)
 
-- **_Test setup_** with examples, lint configs and scripts for coverage (with [istanbul](https://github.com/gotwarlost/istanbul)) and CI support.
+- **_Test setup_** with examples, lint configs and scripts for coverage reporting (with [istanbul](https://github.com/gotwarlost/istanbul)), and CI support.
 
-- **_Works with both `npm` and `yarn`_** as the scripts use [ultra-runner](https://github.com/folke/ultra-runner). Just remove the `yarn.lock` file if you're using `npm`.
+- **_Works with both `npm` and `yarn`_** as the scripts use [ultra-runner](https://github.com/folke/ultra-runner). Remove the `yarn.lock` file if you're using `npm`.
+
+- **_Github actions configuration_** to build, run tests and upload coverage. (Can be removed if not needed, or used with your own [Github Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets))
 
 &nbsp;
 
@@ -68,7 +70,7 @@ Check the code comments for tips and explanations.
 
 - No server side rendering setup.
 
-- No containerization or infra configuration.
+- No containerization or infra configurations.
 
 &nbsp;
 
@@ -77,9 +79,9 @@ Check the code comments for tips and explanations.
 **Note: `npm` or `npm run` can be used instead of `yarn` if preferred**
 &nbsp;
 
-- **`yarn start`** - Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
+- **`yarn start`** - Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page or component will reload when you make edits.
 
-- **`yarn test`** - Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **`yarn test`** - Launches the test runner in the interactive watch mode. See the React documentation on [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 - **`yarn test:no-watch`** - Runs tests without watch mode. Is used for the pre-push git hook, and can be used with continuous integration.
 
