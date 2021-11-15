@@ -58,7 +58,7 @@
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "cross-env": "^7.0.3",
-    "eslint": "^7.32.0",
+    "eslint": "^8.2.0",
     "eslint-config-airbnb": "^19.0.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-prettier": "^8.3.0",
@@ -76,10 +76,10 @@
     "prettier": "^2.4.0",
     "redux-devtools-extension": "^2.13.8",
     "sass-loader": "^12.1.0",
-    "stylelint": "^13.13.1",
+    "stylelint": "^14.0.1",
     "stylelint-config-css-modules": "^2.2.0",
-    "stylelint-config-standard": "^22.0.0",
-    "stylelint-high-performance-animation": "^1.5.1",
+    "stylelint-config-standard": "^23.0.0",
+    "stylelint-high-performance-animation": "^1.6.0",
     "stylelint-no-unsupported-browser-features": "^5.0.1",
     "stylelint-scss": "^4.0.0",
     "ultra-runner": "^3.10.5"
