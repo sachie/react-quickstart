@@ -22,7 +22,7 @@ Built on top of the latest create-react-app, as of Nov 2021, with the following 
 - <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/redux">
 - <img alt="GitHub package.json dependency version (dev dep on branch)" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/dev/eslint">
 
-[Node >= 10.16 and npm >= 5.6](https://nodejs.org/en/) are required on your environment, as specified by [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app).
+[Node >= 14.0.0 and npm >= 5.6](https://nodejs.org/en/) are required on your environment, as specified by [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app).
 
 &nbsp;
 
