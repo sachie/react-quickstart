@@ -30,8 +30,10 @@ Built on top of the latest create-react-app, as of Nov 2021, with the following 
 
 1. `git clone git@github.com:sachie/react-quickstart.git <YOUR_PROJECT_NAME>`
 2. `cd <YOUR_PROJECT_NAME>`
-3. `yarn` or `npm i`
+3. `yarn` or `npm i`  (or [`npm i --legacy-peer-deps`](https://stackoverflow.com/questions/66239691/what-does-npm-install-legacy-peer-deps-do-exactly-when-is-it-recommended-wh))
 4. `yarn start` or `npm start`
+
+Update your git remote url with `git remote set-url origin [NEW_REPO_URL]`
 
 Then add some reducers, pages and tests to the site, as needed.
 Check the code comments for tips and explanations.
