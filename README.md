@@ -106,7 +106,7 @@ The following scripts are also included if the linters need to be used separatel
 ## Discussions and Contributions
 
 For any questions, suggestions or comments, please use the github discussions section.
-If you have an improvement to submit, feel free to open a PR.
+If you have an improvement to submit, feel free to open a PR. For more details, check the [Contribution guidelines](https://github.com/sachie/react-quickstart/blob/main/CONTRIBUTING.md)
 
 &nbsp;
 
