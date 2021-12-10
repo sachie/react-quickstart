@@ -1,15 +1,15 @@
-import reducer from './reducer';
+import reducer, { increment } from './homeSlice';
 
-describe('home reducer', () => {
-  it('should return the initial state', () => {
-    expect(reducer(undefined, {})).toEqual({});
-  });
+const initialState = {
+  value: 0,
+};
 
-  it('should handle a test action', () => {
-    expect(
-      reducer([], {
-        type: 'home/some/action',
-      }),
-    ).toEqual({});
+test('should return the initial state', () => {
+  expect(reducer(undefined, {})).toEqual(initialState);
+});
+
+test('should handle an increment', () => {
+  expect(reducer(initialState, increment())).toEqual({
+    value: 1,
   });
 });

@@ -12,7 +12,7 @@
 </div>
 <br />
 
-A modern template to jump start your React project. The usual additions you make after CRA generation have already been done for you, including code styling rules, auto formatting, test setup, coverage reports, SCSS modules, redux setup and more (check the feature list below for more information). You can simply clone-build-run and start adding features, without spending time on setting up folder structures, linting, git hooks, etc.
+A modern template to jump start your React project. The usual additions you make after CRA generation have already been done for you, including code styling rules, auto formatting, test setup, coverage reports, SCSS modules, modern redux setup and more (check the feature list below for more information). You can simply clone-build-run and start adding features, without spending time on setting up folder structures, linting, git hooks, etc.
 
 Built on top of the latest create-react-app, as of Nov 2021, with the following module versions:
 
@@ -56,7 +56,7 @@ Check the code comments for tips and explanations.
 
 - **_Absolute imports_** to prevent loads of `../../` import statements.
 
-- **_Redux structure_** with a minimal store setup and connection. (Can be removed easily if it's not needed)
+- **_Modern Redux structure_** using [Redux Toolkit](https://redux-toolkit.js.org/) which is [recommended by Redux](https://redux.js.org/introduction/getting-started#redux-toolkit). (Can be removed easily if it's not needed)
 
 - **_Test setup_** with examples, lint configs and scripts for coverage reporting (with [istanbul](https://github.com/gotwarlost/istanbul)), and CI support.
 
@@ -68,7 +68,7 @@ Check the code comments for tips and explanations.
 
 ## What's not included
 
-- No comprehensive redux examples, such as component specific reducers, etc. As different developers have different preferences for this structure, and some might opt out of redux completely.
+- No examples of redux middleware or enhancers, as developer preferences vary for them.
 
 - No server side rendering setup.
 
@@ -106,7 +106,7 @@ The following scripts are also included if the linters need to be used separatel
 ## Discussions and Contributions
 
 For any questions, suggestions or comments, please use the github discussions section.
-If you have an improvement to submit, feel free to open a PR.
+If you have an improvement to submit, feel free to open a PR. For more details, check the [Contribution guidelines](https://github.com/sachie/react-quickstart/blob/main/CONTRIBUTING.md)
 
 &nbsp;
 

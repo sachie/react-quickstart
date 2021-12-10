@@ -1,17 +1,18 @@
+import { Provider } from 'react-redux';
 import { MemoryRouter } from 'react-router-dom';
 import { render, screen } from '@testing-library/react';
 import messages from 'utils/messages';
 import App from './App';
+import store from './store';
 
 test('renders title and readme link', () => {
   render(
-    <MemoryRouter>
-      <App />
-    </MemoryRouter>,
+    <Provider store={store}>
+      <MemoryRouter>
+        <App />
+      </MemoryRouter>
+    </Provider>,
   );
-  const titleElement = screen.getByText(messages.common.title);
-  expect(titleElement).toBeInTheDocument();
 
-  const linkElement = screen.getByText(messages.mainPage.readme);
-  expect(linkElement).toBeInTheDocument();
+  expect(screen.getByText(messages.common.title)).toBeInTheDocument();
 });

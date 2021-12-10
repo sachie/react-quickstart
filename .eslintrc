@@ -44,6 +44,10 @@
     "max-len": [2, { "code": 100 }],
     "consistent-return": 0,
     "default-param-last": 0,
+    "no-param-reassign": [2, {
+      "props": true,
+      "ignorePropertyModificationsFor": ["state"]
+    }],
     "import/order": [2, {
       "groups": [
         "builtin",
