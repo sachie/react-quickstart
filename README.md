@@ -1,7 +1,7 @@
 <div align="center">
   <h1>
     React Quickstart
-    <br />
+    <br /><br />
     <a href="https://depfu.com/github/sachie/react-quickstart?project_id=25505"><img src="https://badges.depfu.com/badges/0de690f5a0f0bc7da4e9e469356bcf6f/overview.svg" alt="Dependency status"></a>
     <a href="https://www.codacy.com/gh/sachie/react-quickstart/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sachie/react-quickstart&amp;utm_campaign=Badge_Grade"><img alt="Code Quality" src="https://img.shields.io/codacy/grade/7749bfe3bed84fb89ad4737d12fc63c8"></a>
     <a href="https://github.com/sachie/react-quickstart/actions"><img alt="GitHub workflow status" src="https://img.shields.io/github/workflow/status/sachie/react-quickstart/React%20Quickstart%20CI"></a>
