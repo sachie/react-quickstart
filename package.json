@@ -14,8 +14,8 @@
     "eslint:fix": "eslint --fix .",
     "stylelint": "stylelint \"**/*.{css,scss,sass,js}\"",
     "stylelint:fix": "stylelint --fix \"**/*.{css,scss,sass,js}\"",
-    "prettier": "prettier --check './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-    "prettier:fix": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "prettier": "prettier --check './**/*.{js,jsx,ts,tsx,css,json}' --config ./.prettierrc",
+    "prettier:fix": "prettier --write './**/*.{js,jsx,ts,tsx,css,json}' --config ./.prettierrc",
     "postinstall": "husky install"
   },
   "eslintConfig": {
