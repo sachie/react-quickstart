@@ -39,10 +39,12 @@
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
-      "!src/index.js"
+      "!src/index.js",
+      "!src/store.js"
     ]
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.7.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.0",
     "@testing-library/user-event": "^13.2.0",
@@ -50,10 +52,9 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-redux": "^7.2.5",
+    "react-redux": "^7.2.6",
     "react-router-dom": "^6.0.2",
-    "react-scripts": "^4.0.3",
-    "redux": "^4.0.5"
+    "react-scripts": "^4.0.3"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
@@ -73,7 +74,6 @@
     "husky": "^7.0.1",
     "istanbul": "^0.4.5",
     "prettier": "^2.4.0",
-    "redux-devtools-extension": "^2.13.8",
     "sass": "^1.44.0",
     "sass-loader": "^12.1.0",
     "stylelint": "^13.13.1",
