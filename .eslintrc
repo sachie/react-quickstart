@@ -1,9 +1,13 @@
 {
   "root": true,
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaVersion": 2020,
     "sourceType": "module",
+    "requireConfigFile": false,
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    },
     "ecmaFeatures": {
       "jsx": true
     }
@@ -103,8 +107,8 @@
     }],
     "react/jsx-one-expression-per-line": 0,
     "react/jsx-props-no-spreading": [2, {
-        "html": "ignore",
-        "exceptions": ["Label"]
+      "html": "ignore",
+      "exceptions": ["Label"]
     }],
     "react/function-component-definition": [2, {
       "namedComponents": "arrow-function",

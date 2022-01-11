@@ -14,13 +14,14 @@
 
 A modern template to jump start your React project. The usual additions you make after CRA generation have already been done for you, including code styling rules, auto formatting, test setup, coverage reports, SCSS modules, modern redux setup and more (check the feature list below for more information). You can simply clone-build-run and start adding features, without spending time on setting up folder structures, linting, git hooks, etc.
 
-Built on top of the latest create-react-app, as of Nov 2021, with the following module versions:
+Built on top of the latest create-react-app, as of Jan 2022, with the following module versions:
 
-- <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/react">
-- <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/react-scripts?label=react-scripts%20%28CRA%29">
-- <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/react-router-dom">
-- <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/@reduxjs/toolkit">
-- <img alt="GitHub package.json dependency version (dev dep on branch)" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/dev/eslint">
+- <img alt="GitHub package.json dependency version - react" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/react">
+- <img alt="GitHub package.json dependency version - react-scripts" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/react-scripts?label=react-scripts%20%28CRA%29">
+- <img alt="GitHub package.json dependency version - react-router-dom" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/react-router-dom">
+- <img alt="GitHub package.json dependency version - @reduxjs/toolkit" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/@reduxjs/toolkit">
+- <img alt="GitHub package.json dependency version - eslint" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/dev/eslint">
+- <img alt="GitHub package.json dependency version - stylelint" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/dev/stylelint">
 
 [Node >= 14.0.0 and npm >= 5.6](https://nodejs.org/en/) are required on your environment, as specified by [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app).
 
@@ -35,7 +36,7 @@ Built on top of the latest create-react-app, as of Nov 2021, with the following 
 
 Update your git remote url with `git remote set-url origin [NEW_REPO_URL]`
 
-Then add some reducers, pages and tests to the site, as needed.
+Then add some pages, components, tests, etc. to the site, as needed.
 Check the code comments for tips and explanations.
 
 &nbsp;
