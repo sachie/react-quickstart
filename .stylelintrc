@@ -11,5 +11,6 @@
     "no-descending-specificity": null,
     "plugin/no-low-performance-animation-properties": true,
     "string-quotes": "single"
-  }
+  },
+  "ignoreFiles": ["!**/*.css", "!**/*.scss"]
 }
