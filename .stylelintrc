@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "stylelint-config-standard",
-    "stylelint-config-css-modules"
-  ],
+  "extends": ["stylelint-config-standard-scss", "stylelint-config-css-modules"],
   "plugins": [
     "stylelint-scss",
     "stylelint-no-unsupported-browser-features",
