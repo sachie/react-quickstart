@@ -1,10 +1,10 @@
 import { Provider } from 'react-redux';
-import { render, screen } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
 import store from 'store';
 import messages from 'utils/messages';
 import Home from './index';
 
-test('renders title and readme link', () => {
+test('renders title and readme link', async () => {
   render(
     <Provider store={store}>
       <Home />
@@ -22,7 +22,11 @@ test('renders title and readme link', () => {
   const logoElement = screen.getByAltText('Logo');
   expect(countElement).toHaveTextContent('0');
   logoElement.click();
-  expect(countElement).toHaveTextContent('1');
+  await waitFor(() => {
+    expect(countElement).toHaveTextContent('1');
+  });
   logoElement.click();
-  expect(countElement).toHaveTextContent('2');
+  await waitFor(() => {
+    expect(countElement).toHaveTextContent('2');
+  });
 });
