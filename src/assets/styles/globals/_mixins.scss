@@ -1,3 +1,5 @@
+@use 'sass:map';
+
 $breakpoints: (
   'mobile': 768px,
   'small': 1024px,
@@ -6,7 +8,7 @@ $breakpoints: (
 );
 
 @mixin breakpoint($screen, $type: max) {
-  $screen: map_get($breakpoints, $screen);
+  $screen: map.get($breakpoints, $screen);
 
   @if $type == max {
     $screen: $screen - 1px;
