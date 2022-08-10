@@ -14,7 +14,7 @@
 
 A modern template to jump start your React project. The usual additions you make after CRA generation have already been done for you, including code styling rules, auto formatting, test setup, coverage reports, SCSS modules, modern redux setup and more (check the feature list below for more information). You can simply clone-build-run and start adding features, without spending time on setting up folder structures, linting, git hooks, etc.
 
-Built on top of the latest create-react-app, as of Jan 2022, with the following module versions:
+Built on top of the latest create-react-app, as of Aug 2022, with the following module versions:
 
 - <img alt="GitHub package.json dependency version - react" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/react">
 - <img alt="GitHub package.json dependency version - react-scripts" src="https://img.shields.io/github/package-json/dependency-version/sachie/react-quickstart/react-scripts?label=react-scripts%20%28CRA%29">
