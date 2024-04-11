@@ -1,4 +1,11 @@
 <div align="center">
+  <h1>This structure is now obsolete. Please consider <a href="https://nextjs.org/">NextJS</a> instead.</h1>
+</div>
+<br />
+<br />
+<br />
+
+<div align="center">
   <h1>
     React Quickstart
     <br /><br />
